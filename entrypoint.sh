@@ -10,7 +10,6 @@ if [ -z "${FIREBASE_PROJECT}" ]; then
     exit 1
 fi
 
-cd functions && npm ci
 firebase deploy \
     -m "${GITHUB_REF} (${GITHUB_SHA})" \
     --project ${FIREBASE_PROJECT} \
