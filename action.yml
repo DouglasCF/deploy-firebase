@@ -1,6 +1,6 @@
 name: 'Deploy to Firebase'
 author: 'Sho Mizutani <lowply@github.com>'
-description: 'A GitHub Action to deploy to Firebase Hosting'
+description: 'A GitHub Action to deploy to Firebase'
 runs:
   using: 'docker'
   image: 'Dockerfile'
