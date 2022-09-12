@@ -1,6 +1,6 @@
 # Deploy to Firebase
 
-A GitHub Action to deploy to Firebase Hosting.
+A GitHub Action to deploy to Firebase.
 
 - Make sure that you checkout the repository using the [actions/checkout](https://github.com/actions/checkout) action
 - Make sure that you have the `firebase.json` file in the repository
